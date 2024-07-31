@@ -18,7 +18,7 @@ public class SomeBusinessImpl {
 				max=ele;
 			}
 		}
-		return max;
+		return max==Integer.MIN_VALUE ? 0 : max;
 	}
 }
 
